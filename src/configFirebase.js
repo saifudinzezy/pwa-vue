@@ -29,7 +29,11 @@ let db = firebase.firestore();
 db.settings({
     timestampsInSnapshots: true
 });
-
+db.enablePersistence({
+        experimentalTabSynchronization: true
+    })
+    // const storage = firebase.storage()
 export default {
     db
+    // ,storage
 }

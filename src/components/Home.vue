@@ -29,7 +29,7 @@
       right
       fab
     >
-      <v-icon>mdi-plus</v-icon>
+      <v-icon>add</v-icon>
     </v-btn>
   </v-container>
 </template>
